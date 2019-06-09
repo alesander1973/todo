@@ -103,7 +103,7 @@ export class TodoListComponent implements OnInit {
   checkAllTodos(): void {
     this.todos.forEach( todo => todo.completed =
 // tslint:disable-next-line: deprecation
-      (  event.target as HTMLInputElement ).checked);
+      ( event.target as HTMLInputElement ).checked);
   }
 
   todosFiltered(): Todo[] {
