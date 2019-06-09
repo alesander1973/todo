@@ -9,7 +9,10 @@ margin: 0 auto;
 }
 
 body {
-  font-family: 'Avenir', Arial, Helvetica, sans-serif;
+  background-image: url('./assets/images/cover.jpeg');
+  background-size: 16in;
+  background-repeat: no-repeat;
+  font-family: cursive;
   -webkit-font-smooting: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
